@@ -1,0 +1,41 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    margin-bottom: 15px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  .card-category {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card-rating {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
